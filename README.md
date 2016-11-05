@@ -1,5 +1,5 @@
 # one-two-tap
-A bare-bones jQuery plugin to allow for callback on double tap and single tap, with threshold selection
+A bare-bones jQuery plugin to allow for callback on double tap and single tap, with threshold selection.
 
 ##Demo
 [plugins.getdans.info/one-two-tap](http://plugins.getdans.info/one-two-tap)
@@ -30,4 +30,4 @@ Options          | Definition
 ---------------- | -------------------------------------------------------------------------------------------------------------------- 
 `threshold`      | Below, callback will fire on double tap/click.<br>Above, callback will fire on single.<br>`default: 500`
 `callback`       | `function(){}`
-`oneTapCallback` | `function(){}`<br>Will only fire on single tap/click<br>when window width is less than<br>or equal to the threshold.
+`oneTapCallback` | `function(){}`<br>Will only fire on single tap/click when window<br>width is less than or equal to the threshold.
