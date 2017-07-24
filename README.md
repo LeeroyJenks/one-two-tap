@@ -1,16 +1,16 @@
 # one-two-tap
 A bare-bones jQuery plugin to allow for callback on double tap and single tap, with threshold selection.
 
-##Demo
+## Demo
 [plugins.getdans.info/one-two-tap](http://plugins.getdans.info/one-two-tap)
 
-##Installation
+## Installation
 Download from GitHub
 
-###Requirements
+### Requirements
 jQuery
 
-###Use
+### Use
 ```html
 <script>
     $(document).ready(function(){
@@ -20,11 +20,11 @@ jQuery
     });
 </script>
 ```
-###Description
+### Description
 
 one-two-tap is meant to be used with a callback. It's nothing without your input. You can set a threshold where, when the window width is above it, a single click/tap will fire the callback and, when the window width is below or equal to it, a double click/tap will fire it. You can also set a single click/tap callback for when the window width is below the threshold.
 
-###Options
+### Options
 
 Options          | Definition
 ---------------- | -------------------------------------------------------------------------------------------------------------------- 
